@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -f /tmp/shot*.png /tmp/shot.js /tmp/pw_install*.log /tmp/pw_npm_install.log /tmp/script_check.js)",
+      "Bash(python3 -c ' *)",
+      "Bash(pip install *)",
+      "Bash(rm -f /tmp/v2_*.png /tmp/v3_*.png *)"
+    ],
+    "additionalDirectories": [
+      "/tmp"
+    ]
+  }
+}
